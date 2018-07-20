@@ -2,32 +2,36 @@
 <testng-results skipped="0" failed="5" ignored="0" total="5" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="42250" started-at="2018-07-19T18:47:56Z" finished-at="2018-07-19T18:48:39Z">
+  <suite name="Default suite" duration-ms="121535" started-at="2018-07-19T19:37:34Z" finished-at="2018-07-19T19:39:36Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="42250" started-at="2018-07-19T18:47:56Z" finished-at="2018-07-19T18:48:39Z">
+    <test name="Default test" duration-ms="121535" started-at="2018-07-19T19:37:34Z" finished-at="2018-07-19T19:39:36Z">
       <class name="com.assignment.fox.FoxTest">
-        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:com.assignment.fox.FoxTest@91161c7]" name="invokeBrowser" is-config="true" duration-ms="21383" started-at="2018-07-19T18:47:56Z" finished-at="2018-07-19T18:48:18Z">
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:com.assignment.fox.FoxTest@91161c7]" name="invokeBrowser" is-config="true" duration-ms="94778" started-at="2018-07-19T19:37:34Z" finished-at="2018-07-19T19:39:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invokeBrowser -->
-        <test-method status="FAIL" signature="writeDataExcel()[pri:1, instance:com.assignment.fox.FoxTest@91161c7]" name="writeDataExcel" duration-ms="701" started-at="2018-07-19T18:48:18Z" finished-at="2018-07-19T18:48:18Z">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+        <test-method status="FAIL" signature="writeDataExcel()[pri:1, instance:com.assignment.fox.FoxTest@91161c7]" name="writeDataExcel" duration-ms="6144" started-at="2018-07-19T19:39:09Z" finished-at="2018-07-19T19:39:15Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[Element <a class="Header_categoryItem_2_wKp" href="/shows/"> is not clickable at point (292.70833587646484,35.69999694824219) because another element <div class="Account_header_3LmCn Account_noBottomBorder_s16_J"> obscures it
+              <![CDATA[Unable to locate element: //*[contains(@href,'/shows/')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
 System info: host: 'HOME', ip: '192.168.105.99', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 19768, moz:profile: C:\Users\Madhavi\AppData\Lo..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.2, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 1d93d778-5891-40e6-a7b6-328a301d766f]]>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 16780, moz:profile: C:\Users\Madhavi\AppData\Lo..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.2, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 394e271c-bab2-487e-bb64-0642ca50cef8
+*** Element info: {Using=xpath, value=//*[contains(@href,'/shows/')]}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: Element <a class="Header_categoryItem_2_wKp" href="/shows/"> is not clickable at point (292.70833587646484,35.69999694824219) because another element <div class="Account_header_3LmCn Account_noBottomBorder_s16_J"> obscures it
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[contains(@href,'/shows/')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
 System info: host: 'HOME', ip: '192.168.105.99', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 19768, moz:profile: C:\Users\Madhavi\AppData\Lo..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.2, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 1d93d778-5891-40e6-a7b6-328a301d766f
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 16780, moz:profile: C:\Users\Madhavi\AppData\Lo..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.2, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 394e271c-bab2-487e-bb64-0642ca50cef8
+*** Element info: {Using=xpath, value=//*[contains(@href,'/shows/')]}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -38,8 +42,10 @@ at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCo
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
 at com.assignment.fox.ShowsPage.clickOnShows(ShowsPage.java:21)
 at com.assignment.fox.FoxTest.writeDataExcel(FoxTest.java:28)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -69,11 +75,11 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- writeDataExcel -->
-        <test-method status="FAIL" signature="verifyMoviesList()[pri:2, instance:com.assignment.fox.FoxTest@91161c7]" name="verifyMoviesList" duration-ms="5018" started-at="2018-07-19T18:48:18Z" finished-at="2018-07-19T18:48:23Z">
+        <test-method status="FAIL" signature="verifyMoviesList()[pri:2, instance:com.assignment.fox.FoxTest@91161c7]" name="verifyMoviesList" duration-ms="5086" started-at="2018-07-19T19:39:15Z" finished-at="2018-07-19T19:39:21Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Unable to locate element: //div[@class='PageHeaderBrowse_tabContainer_3htBb PageHeaderBrowseAltHeader_tabContainer_en4tN']//a[2]
@@ -81,8 +87,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
 System info: host: 'HOME', ip: '192.168.105.99', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 19768, moz:profile: C:\Users\Madhavi\AppData\Lo..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.2, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 1d93d778-5891-40e6-a7b6-328a301d766f
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 16780, moz:profile: C:\Users\Madhavi\AppData\Lo..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.2, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 394e271c-bab2-487e-bb64-0642ca50cef8
 *** Element info: {Using=xpath, value=//div[@class='PageHeaderBrowse_tabContainer_3htBb PageHeaderBrowseAltHeader_tabContainer_en4tN']//a[2]}]]>
             </message>
             <full-stacktrace>
@@ -91,8 +97,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
 System info: host: 'HOME', ip: '192.168.105.99', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 19768, moz:profile: C:\Users\Madhavi\AppData\Lo..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.2, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 1d93d778-5891-40e6-a7b6-328a301d766f
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 16780, moz:profile: C:\Users\Madhavi\AppData\Lo..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.2, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 394e271c-bab2-487e-bb64-0642ca50cef8
 *** Element info: {Using=xpath, value=//div[@class='PageHeaderBrowse_tabContainer_3htBb PageHeaderBrowseAltHeader_tabContainer_en4tN']//a[2]}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -108,7 +114,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
 at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
-at com.assignment.fox.FxPage.verifyMovies(FxPage.java:17)
+at com.assignment.fox.FxPage.verifyMovies(FxPage.java:19)
 at com.assignment.fox.FoxTest.verifyMoviesList(FoxTest.java:34)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
@@ -141,7 +147,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyMoviesList -->
-        <test-method status="FAIL" signature="verifyAllShows()[pri:3, instance:com.assignment.fox.FoxTest@91161c7]" name="verifyAllShows" duration-ms="5030" started-at="2018-07-19T18:48:23Z" finished-at="2018-07-19T18:48:28Z">
+        <test-method status="FAIL" signature="verifyAllShows()[pri:3, instance:com.assignment.fox.FoxTest@91161c7]" name="verifyAllShows" duration-ms="5140" started-at="2018-07-19T19:39:21Z" finished-at="2018-07-19T19:39:26Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Unable to locate element: //div[@class='PageHeaderBrowse_tabContainer_3htBb PageHeaderBrowseAltHeader_tabContainer_en4tN']//a[6]
@@ -149,8 +155,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
 System info: host: 'HOME', ip: '192.168.105.99', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 19768, moz:profile: C:\Users\Madhavi\AppData\Lo..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.2, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 1d93d778-5891-40e6-a7b6-328a301d766f
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 16780, moz:profile: C:\Users\Madhavi\AppData\Lo..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.2, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 394e271c-bab2-487e-bb64-0642ca50cef8
 *** Element info: {Using=xpath, value=//div[@class='PageHeaderBrowse_tabContainer_3htBb PageHeaderBrowseAltHeader_tabContainer_en4tN']//a[6]}]]>
             </message>
             <full-stacktrace>
@@ -159,8 +165,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
 System info: host: 'HOME', ip: '192.168.105.99', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 19768, moz:profile: C:\Users\Madhavi\AppData\Lo..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.2, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 1d93d778-5891-40e6-a7b6-328a301d766f
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 16780, moz:profile: C:\Users\Madhavi\AppData\Lo..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.2, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 394e271c-bab2-487e-bb64-0642ca50cef8
 *** Element info: {Using=xpath, value=//div[@class='PageHeaderBrowse_tabContainer_3htBb PageHeaderBrowseAltHeader_tabContainer_en4tN']//a[6]}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -209,7 +215,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAllShows -->
-        <test-method status="FAIL" signature="verifyFXSports()[pri:4, instance:com.assignment.fox.FoxTest@91161c7]" name="verifyFXSports" duration-ms="5028" started-at="2018-07-19T18:48:28Z" finished-at="2018-07-19T18:48:33Z">
+        <test-method status="FAIL" signature="verifyFXSports()[pri:4, instance:com.assignment.fox.FoxTest@91161c7]" name="verifyFXSports" duration-ms="5116" started-at="2018-07-19T19:39:26Z" finished-at="2018-07-19T19:39:31Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Unable to locate element: //div[@class='PageHeaderBrowse_tabContainer_3htBb PageHeaderBrowseAltHeader_tabContainer_en4tN']//a[4]
@@ -217,8 +223,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
 System info: host: 'HOME', ip: '192.168.105.99', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 19768, moz:profile: C:\Users\Madhavi\AppData\Lo..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.2, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 1d93d778-5891-40e6-a7b6-328a301d766f
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 16780, moz:profile: C:\Users\Madhavi\AppData\Lo..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.2, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 394e271c-bab2-487e-bb64-0642ca50cef8
 *** Element info: {Using=xpath, value=//div[@class='PageHeaderBrowse_tabContainer_3htBb PageHeaderBrowseAltHeader_tabContainer_en4tN']//a[4]}]]>
             </message>
             <full-stacktrace>
@@ -227,8 +233,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
 System info: host: 'HOME', ip: '192.168.105.99', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 19768, moz:profile: C:\Users\Madhavi\AppData\Lo..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.2, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 1d93d778-5891-40e6-a7b6-328a301d766f
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 16780, moz:profile: C:\Users\Madhavi\AppData\Lo..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.2, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 394e271c-bab2-487e-bb64-0642ca50cef8
 *** Element info: {Using=xpath, value=//div[@class='PageHeaderBrowse_tabContainer_3htBb PageHeaderBrowseAltHeader_tabContainer_en4tN']//a[4]}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -277,7 +283,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyFXSports -->
-        <test-method status="FAIL" signature="verifyNGeoShows()[pri:5, instance:com.assignment.fox.FoxTest@91161c7]" name="verifyNGeoShows" duration-ms="5034" started-at="2018-07-19T18:48:33Z" finished-at="2018-07-19T18:48:38Z">
+        <test-method status="FAIL" signature="verifyNGeoShows()[pri:5, instance:com.assignment.fox.FoxTest@91161c7]" name="verifyNGeoShows" duration-ms="5166" started-at="2018-07-19T19:39:31Z" finished-at="2018-07-19T19:39:36Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Unable to locate element: //div[@class='PageHeaderBrowse_tabContainer_3htBb PageHeaderBrowseAltHeader_tabContainer_en4tN']//a[3]
@@ -285,8 +291,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
 System info: host: 'HOME', ip: '192.168.105.99', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 19768, moz:profile: C:\Users\Madhavi\AppData\Lo..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.2, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 1d93d778-5891-40e6-a7b6-328a301d766f
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 16780, moz:profile: C:\Users\Madhavi\AppData\Lo..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.2, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 394e271c-bab2-487e-bb64-0642ca50cef8
 *** Element info: {Using=xpath, value=//div[@class='PageHeaderBrowse_tabContainer_3htBb PageHeaderBrowseAltHeader_tabContainer_en4tN']//a[3]}]]>
             </message>
             <full-stacktrace>
@@ -295,8 +301,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
 System info: host: 'HOME', ip: '192.168.105.99', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 19768, moz:profile: C:\Users\Madhavi\AppData\Lo..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.2, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 1d93d778-5891-40e6-a7b6-328a301d766f
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 16780, moz:profile: C:\Users\Madhavi\AppData\Lo..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.2, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 394e271c-bab2-487e-bb64-0642ca50cef8
 *** Element info: {Using=xpath, value=//div[@class='PageHeaderBrowse_tabContainer_3htBb PageHeaderBrowseAltHeader_tabContainer_en4tN']//a[3]}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -345,7 +351,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyNGeoShows -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.assignment.fox.FoxTest@91161c7]" name="teardown" is-config="true" duration-ms="1" started-at="2018-07-19T18:48:38Z" finished-at="2018-07-19T18:48:39Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.assignment.fox.FoxTest@91161c7]" name="teardown" is-config="true" duration-ms="1" started-at="2018-07-19T19:39:36Z" finished-at="2018-07-19T19:39:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

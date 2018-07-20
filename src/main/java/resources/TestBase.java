@@ -30,7 +30,7 @@ public class TestBase {
 		if (browserName.equals("firefox")) {
 			System.setProperty("webdriver.gecko.driver", "C:\\geckodriver.exe");
 			driver = new FirefoxDriver();
-		} else if (browserName.equals("firefox")) {
+		} else if (browserName.equals("chrome")) {
 			System.setProperty("webdriver.chrome.driver","C:\\chromedriver.exe");
 			driver = new ChromeDriver();
 		} else if (browserName.equals("IE")) {
