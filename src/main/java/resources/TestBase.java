@@ -23,14 +23,14 @@ public class TestBase {
 	// invoking browser
 	public WebDriver initializeBrowser() throws IOException {
 		prop = new Properties();
-		FileInputStream fis = new FileInputStream("C:\\Assignment\\FOX_Assig_Madhavi\\src\\main\\java\\resources\\data.properties");
+		FileInputStream fis = new FileInputStream("C:\\Users\\Madhavi\\.git\\FOX_Assig_Madhavi_New\\src\\main\\java\\resources\\data.properties");
 		prop.load(fis);
 		String browserName = prop.getProperty("browser");
 
 		if (browserName.equals("firefox")) {
 			System.setProperty("webdriver.gecko.driver", "C:\\geckodriver.exe");
 			driver = new FirefoxDriver();
-		} else if (browserName.equals("chrome")) {
+		} else if (browserName.equals("firefox")) {
 			System.setProperty("webdriver.chrome.driver","C:\\chromedriver.exe");
 			driver = new ChromeDriver();
 		} else if (browserName.equals("IE")) {
